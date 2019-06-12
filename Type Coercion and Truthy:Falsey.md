@@ -5,13 +5,13 @@
 **==** -  operator will attempt to force the two values to be the same(it calls **_type coercion_**)
 Ex. 23 == “23” will return **_True_**
 
-  <span style="color:grey">some *! It's better to use triple equals **===** in almost every case, type coercion can sometimes produce unexpected results in your code.* text</span>
-
+ ``! It's better to use triple equals **===** in almost every case, type coercion can sometimes produce unexpected results in your code.
+``
 ## Not Equal
 **!==** - operator to check that two values are not equal
 **!=** - operator will force type coercion the same as **==** before comparing the two values
   
-  ! It's almost always better to use !== in order to avoid any accidental type coercion in your code
+ `` ! It's almost always better to use !== in order to avoid any accidental type coercion in your code``
 
 ## Truthy & Falsey
 Comparing two values in JavaScript will return either true or false. But there are some exceptions in JavaScript, for ex. using ==, the correct response will be the opposite of expected.
