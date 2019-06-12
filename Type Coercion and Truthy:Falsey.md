@@ -5,7 +5,7 @@
 **==** -  operator will attempt to force the two values to be the same(it calls **_type coercion_**)
 Ex. 23 == “23” will return **_True_**
 
-  ! It's better to use triple equals **===** in almost every case, type coercion can sometimes produce unexpected results in your code.
+  <span style="color:grey">some *! It's better to use triple equals **===** in almost every case, type coercion can sometimes produce unexpected results in your code.* text</span>
 
 ## Not Equal
 **!==** - operator to check that two values are not equal
