@@ -7,7 +7,7 @@
 ```
 ## return & console.log
 It’s important to understand that using **return** in a function is different from using **console.log.**
-⋅⋅⋅**console.log:**⋅⋅
+⋅⋅⋅ **console.log:** ⋅⋅
 
 ```js
 const sayHelloToConsole  = function (name) {
