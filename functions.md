@@ -2,26 +2,27 @@
 **Functions** package up code so you can easily use (and reuse) a block of code. 
 **Parameters** are variables that are used to store the data that's passed into a function for the function to use. 
 **Arguments** are the actual data that's passed into a function when it is invoked:
-``js 
+```js 
 ! A function's return value can be stored in a variable or reused throughout your program as a function argument
 ```
 ## return & console.log
 It’s important to understand that using **return** in a function is different from using **console.log.**
 **console.log:**
+
 ```js
 const sayHelloToConsole  = function (name) {
   console.log("Hello, " + name);
 }
 sayHelloToConsole('John'); ```
  						// It’s immediately outputs 'Hello, John' to the console.
-
+```
 **return:**
 ```js
 const returnSayHello  = function (name) {
   return "Hello, " + name;
 }
-const greeting = returnSayHello('John’);	// Returns the string 'Hello, John' to a variable and nothing will get output to the console.```
-
+const greeting = returnSayHello('John’);	// Returns the string 'Hello, John' to a variable and nothing will get output to the console.
+```
 A **console.log** statement will result in some content being displayed in the console. 
 A **return** statement will **not** output anything to the console. 
 However, when a function returns a value, we can still console.log it later:
@@ -31,8 +32,7 @@ const returnSayHello  = function (name) {
 }
 const greeting = returnSayHello('John');
 console.log(greeting); ```
-
-
+```
 e.g
 ```js
 								
@@ -54,8 +54,8 @@ function sayHi(name) {
 sayHi("Julia");					//Output  Hello Julia
 ```
 
-```js
 e.g
+```js
 function laugh(num) {
     var str = "";
     for(var i = 1; i <= num; i++) {
@@ -66,8 +66,9 @@ function laugh(num) {
 }
 console.log(laugh(3));  			// Output hahaha!
 
-```js
+```
 e.g
+```js
 function sayHello(name) {			//Declared the function with parameter - name
   console.log("Hello, " + name);
 }
@@ -79,8 +80,9 @@ sayHello("Ferdinand");
 							 Miranda
 							 Ferdinand
 
-
+```
 ### isEven function
+
 **isEven** takes as its parameter a number and returns a Boolean value representing whether or not the number is even.
 In the above isEven function, num can vary and therefore so will the result of num % 2 === 0. 
 If num is even, the result of num % 2 is 0 and so the whole expression evaluates to *true*. 
