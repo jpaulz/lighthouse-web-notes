@@ -1,7 +1,7 @@
 # Functions
--**Functions** package up code so you can easily use (and reuse) a block of code. 
--**Parameters** are variables that are used to store the data that's passed into a function for the function to use. 
--**Arguments** are the actual data that's passed into a function when it is invoked:
+- **Functions** package up code so you can easily use (and reuse) a block of code. 
+- **Parameters** are variables that are used to store the data that's passed into a function for the function to use. 
+- **Arguments** are the actual data that's passed into a function when it is invoked:
 ```js 
 ! A function's return value can be stored in a variable or reused throughout your program as a function argument
 ```
