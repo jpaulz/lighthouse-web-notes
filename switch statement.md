@@ -1,7 +1,7 @@
 # Switch Statement
-A switch statement is an another way to chain multiple else if statements that are based on the same value without using conditional statements. Instead, you just switch which piece of code is executed based on a value.
+A **switch statement** is an another way to chain multiple **else if** statements that are based on the same value without using conditional statements. Instead, you just switch which piece of code is executed based on a value.
 
-The break statement can be used to terminate a switch statement and transfer control to the code following the terminated statement. By adding a break to each case clause, you fix the issue of the switch statement falling-through to other case clauses.
+The **break statement** can be used to terminate a switch statement and transfer control to the code following the terminated statement.\ By adding a break to each case clause, you fix the issue of the switch statement falling-through to other case clauses.
 
 E.g
 ```js
