@@ -6,7 +6,7 @@
 ! A function's return value can be stored in a variable or reused throughout your program as a function argument
 ```
 ## return & console.log
-It’s important to understand that using **return** in a function is different from using **console.log.**
+It’s important to understand that using **return** in a function is different from using **console.log.**\
 ⋅⋅⋅ **console.log:** ⋅⋅
 
 ```js
