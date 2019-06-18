@@ -3,7 +3,7 @@
 
 ## Array.length
 Can be found by using array’s **length** property.\
-To access the length property, type the name of the array, followed by a period . (you’ll also use the period to access other properties and methods), and the word length. \
+To access the length property, type the name of the array, followed by a period . (you’ll also use the period to access other properties and methods), and the word length. \
 The length property will then return the **number of elements** in the array.
 
 ```js
@@ -40,9 +40,9 @@ splice() is another handy method that allows you to add and remove elements fro
 While push() and pop() limit you to adding and removing elements from the end of an array,\
  **splice() lets you specify the index location to add new elements, as well as the number of elements you'd like to delete (if any)**.
 
-The first argument represents the starting index from where you want to change the array,\
-the second argument represents how many elements you want to remove,\
- and the remaining arguments represent the elements you want to add.
+- The first argument represents the starting index from where you want to change the array,\
+- the second argument represents how many elements you want to remove,\
+-  and the remaining arguments represent the elements you want to add.
 ```js
 			var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller"];
 			donuts.splice(1, 1, "chocolate cruller", "creme de leche"); 
