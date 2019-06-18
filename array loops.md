@@ -25,10 +25,10 @@ and manipulate each element in the array with an inline function expression.
   			donut += " hole";
   			donut = donut.toUpperCase();
   			console.log(donut);
-			});			// Output will be 
+			});			/* Output will be 
 						JELLY DONUT HOLE
 						CHOCOLATE DONUT HOLE
-						GLAZED DONUT HOLE
+						GLAZED DONUT HOLE*/
 ```
 That how it would be done with the for loop 
 ```js
@@ -52,7 +52,8 @@ That how it would be done with the for loop
 			words.forEach(function(word, num, all) {
   			console.log("Word " + num + " in " + all.toString() + " is " + word);
 			});
-						//Output will be 						Word 0 in cat,in,hat is cat 						Word 1 in cat,in,hat is in 						Word 2 in cat,in,hat is hat```
+						/*Output will be Word 0 in cat,in,hat is cat 
+								 Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/```
 ```
 ## Map
 With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.\
@@ -68,6 +69,6 @@ With the map() method, you can take an array, perform some operation on each el
  			 donut = donut.toUpperCase();
  			 return donut;
 			});
-						// donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
-						   improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
+				/*donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
+				improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]*/
 ```
