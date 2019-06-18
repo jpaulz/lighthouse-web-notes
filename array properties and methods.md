@@ -8,7 +8,7 @@ The length property will then return the **number of elements** in the array
 
 ```js
 			var donuts = ["glazed", "powdered", "sprinkled"];
-			console.log(donuts.length); 					// Output - 3  		
+			console.log(donuts.length);	// Output - 3  		
 ```
 ## push() and pop() methods to modify an array
 **Push**
@@ -17,8 +17,8 @@ Also, the push() method returns the length of the array after an element has b
 
 ```js
 			var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
-			donuts.push("powdered"); 					    // pushes "powdered" onto the end of the `donuts` array
-			/* Output will be 7  (donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered”])*/
+			donuts.push("powdered");	// pushes "powdered" onto the end of the `donuts` array
+			/* Output will be 7  (donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon 			sugar", "sprinkled", "powdered”])*/
 ```
 **Pop**
 You can use the **pop()** method **to remove elements from the end of an array**.
@@ -26,13 +26,13 @@ With the pop() method you don’t need to pass a value; instead, **pop() wil
 Also, pop() returns the element that has been removed in case you need to use it.
 
 ```js
-			var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+			var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", 				"powdered"];
 
-			donuts.pop(); 			// pops "powdered" off the end of the `donuts` array
-			donuts.pop(); 			// pops "sprinkled" off the end of the `donuts` array
-			donuts.pop(); 			// pops "cinnamon sugar" off the end of the `donuts` array
+			donuts.pop();		// pops "powdered" off the end of the `donuts` array
+			donuts.pop();		// pops "sprinkled" off the end of the `donuts` array
+			donuts.pop();		// pops "cinnamon sugar" off the end of the `donuts` array
 			
-			/* Output will be "cinnamon sugar"  - the last removed element 			and the array after that will be (donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller”])*/
+			/* Output will be "cinnamon sugar"  - the last removed element 	and the array after that will be (donuts 				array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller”])*/
 ```
 ## Splice
 
@@ -48,7 +48,7 @@ the second argument represents how many elements you want to remove,\
 			donuts.splice(1, 1, "chocolate cruller", "creme de leche"); 
 			// removes "chocolate frosted" at index 1 and adds "chocolate cruller" and "creme de leche" starting at index 1
 			/*Output will be  ["chocolate frosted"]
-			and the array after that will be donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", "glazed cruller"]*/
+			and the array after that will be donuts array: ["glazed", "chocolate cruller", "creme de leche", "Boston creme", 			"glazed cruller"]*/
 ```
 **Splice with negative index number**
 If there are splice with negative index number:\
@@ -60,7 +60,7 @@ If there are splice with negative index number:\
 			var donuts = ["cookies", "cinnamon sugar", "creme de leche"];
 
 			donuts.splice(-2, 0, "chocolate frosted", "glazed");
-			/*Output  			and the array after that will be [“cookies", "chocolate frosted", "glazed”, ”cinnamon sugar", "creme de leche”];*/
+			//and the array after that will be [“cookies", "chocolate frosted", "glazed”, ”cinnamon sugar", "creme de leche”];
 
 
 
