@@ -11,7 +11,7 @@ The length property will then return the **number of elements** in the array
 			console.log(donuts.length);	// Output - 3  		
 ```
 ## push() and pop() methods to modify an array
-**Push**
+**Push**\
 You can use **push()** method **to add elements to the end of an array**.\
 Also, the push() method returns the length of the array after an element has been added.
 
@@ -20,7 +20,7 @@ Also, the push() method returns the length of the array after an element has b
 			donuts.push("powdered");	// pushes "powdered" onto the end of the `donuts` array
 			/* Output will be 7  (donuts array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon 			sugar", "sprinkled", "powdered”])*/
 ```
-**Pop**
+**Pop**\
 You can use the **pop()** method **to remove elements from the end of an array**.
 With the pop() method you don’t need to pass a value; instead, **pop() will always remove the last element from the end** of the array.\
 Also, pop() returns the element that has been removed in case you need to use it.
@@ -28,9 +28,9 @@ Also, pop() returns the element that has been removed in case you need to use 
 ```js
 			var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", 				"powdered"];
 
-			donuts.pop();		// pops "powdered" off the end of the `donuts` array
-			donuts.pop();		// pops "sprinkled" off the end of the `donuts` array
-			donuts.pop();		// pops "cinnamon sugar" off the end of the `donuts` array
+			donuts.pop();	// pops "powdered" off the end of the `donuts` array
+			donuts.pop();	// pops "sprinkled" off the end of the `donuts` array
+			donuts.pop();	// pops "cinnamon sugar" off the end of the `donuts` array
 			
 			/* Output will be "cinnamon sugar"  - the last removed element 	and the array after that will be (donuts 				array: ["glazed", "chocolate frosted", "Boston creme", "glazed cruller”])*/
 ```
