@@ -25,10 +25,10 @@ and manipulate each element in the array with an inline function expression.
   			donut += " hole";
   			donut = donut.toUpperCase();
   			console.log(donut);
-			});			// Output will be 
+			});			/* Output will be 
 						JELLY DONUT HOLE
 						CHOCOLATE DONUT HOLE
-						GLAZED DONUT HOLE
+						GLAZED DONUT HOLE*/
 ```
 That how it would be done with the for loop 
 ```js
@@ -41,24 +41,25 @@ That how it would be done with the for loop
 			}
 ```
 
-- The function that you pass to the forEach() method can take **up to three parameters**. \
-- The forEach() method will call this function once for each element in the array (hence the name forEach.) \
-- Each time, it will call the function with different arguments. \
-- The element parameter will get the *value* of the array element. \
-- The index parameter will get the *index* of the element (starting with zero)./
+- The function that you pass to the forEach() method can take **up to three parameters**. 
+- The forEach() method will call this function once for each element in the array (hence the name forEach.) 
+- Each time, it will call the function with different arguments. 
+- The element parameter will get the *value* of the array element. 
+- The index parameter will get the *index* of the element (starting with zero).
 -  The array parameter will get a reference to the whole array, which is handy if you want to modify the elements.
 ```js
 			words = ["cat", "in", "hat"];
 			words.forEach(function(word, num, all) {
   			console.log("Word " + num + " in " + all.toString() + " is " + word);
 			});
-						//Output will be 						Word 0 in cat,in,hat is cat 						Word 1 in cat,in,hat is in 						Word 2 in cat,in,hat is hat```
+						/*Output will be Word 0 in cat,in,hat is cat 
+								 Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/```
 ```
 ## Map
-With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.\
-- The map() method accepts one argument, a function that will be used to manipulate each element in the array. \
-- In the example below, used a function expression to pass that function into map(). \
-- This function is taking in one argument, donut which corresponds to each element in the donuts array.\
+With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.
+- The map() method accepts one argument, a function that will be used to manipulate each element in the array. 
+- In the example below, used a function expression to pass that function into map(). 
+- This function is taking in one argument, donut which corresponds to each element in the donuts array.
 - You no longer need to iterate over the indices anymore. map() does all that work for you.
 ```js
 			var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
@@ -68,6 +69,6 @@ With the map() method, you can take an array, perform some operation on each el
  			 donut = donut.toUpperCase();
  			 return donut;
 			});
-						// donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
-						   improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
+				/*donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
+				improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]*/
 ```
