@@ -12,7 +12,7 @@ To loop through an array, you can use a variable to represent the index in the a
 			// The result will be donuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]
 ```
 In this example, the variable i is being used to represent the index of the array.\
- As i is incremented, you are stepping over each element in the array starting from 0 until donuts.length - 1 (donuts.length is out of bounds).
+As i is incremented, you are stepping over each element in the array starting from 0 until donuts.length - 1 (donuts.length is out of bounds).
 
 ## The forEach() loop
 The forEach() method gives you an alternative way to iterate over an array, \
@@ -41,14 +41,14 @@ That how it would be done with the for loop
 			}
 ```
 
-- The function that you pass to the forEach() method can take **up to three parameters**. 
+- The function that you pass to the forEach() method can take **up to three parameters** (element, index and all(the whole array)).
 - The forEach() method will call this function once for each element in the array (hence the name forEach.) 
 - Each time, it will call the function with different arguments. 
-- The element parameter will get the *value* of the array element. 
+- The element parameter will get the *value* of the array element.
 - The index parameter will get the *index* of the element (starting with zero).
 -  The array parameter will get a reference to the whole array, which is handy if you want to modify the elements.
-```js
-			words = ["cat", "in", "hat"];
+```js				   0      1      2     //Indexes of elements
+			words = ["cat", "in", "hat"];  // cat, in, hat - elements
 			words.forEach(function(word, num, all) {
   			console.log("Word " + num + " in " + all.toString() + " is " + word);
 			});
@@ -57,9 +57,9 @@ That how it would be done with the for loop
 ```
 ## Map
 With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.
-- The map() method accepts one argument, a function that will be used to manipulate each element in the array. 
+- The map() method accepts one argument, which has to be a function that will be used to manipulate each element in the array. The function can have up to three arguments (element, index, and the whole array).
 - In the example below, used a function expression to pass that function into map(). 
-- This function is taking in one argument, donut which corresponds to each element in the donuts array.
+- This function is taking in one argument, *donut* which corresponds to each element in the donuts array.
 - You no longer need to iterate over the indices anymore. map() does all that work for you.
 ```js
 			var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
