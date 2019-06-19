@@ -62,6 +62,7 @@ With the map() method, you can take an array, perform some operation on each el
 - In the example below, used a function expression to pass that function into map(). 
 - This function is taking in one argument, *donut* which corresponds to each element in the donuts array.
 - You no longer need to iterate over the indices anymore. map() does all that work for you.
+- Remeber to **return** 
 ```js
 			var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
 
