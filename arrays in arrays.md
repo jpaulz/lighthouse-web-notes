@@ -6,7 +6,7 @@ Syntax:
   			["powdered", "sprinkled", "glazed cruller"],
   			["chocolate cruller", "Boston creme", "creme de leche"]
 			];
-
+``
 To loop over the donut box and display each donut (along with its position in the box!):
 1. Start with writing a for loop to loop over each **row** of the box of donuts
 2. Next need to set up an inner-loop to loop over each **cell** in the arrays.
@@ -28,6 +28,7 @@ To loop over the donut box and display each donut (along with its position in th
 						"chocolate cruller"
 						"Boston creme"
 						"creme de leche”*/
+
 ```
 ```js
 			var numbers = [
