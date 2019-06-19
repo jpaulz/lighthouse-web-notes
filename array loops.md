@@ -47,13 +47,14 @@ That how it would be done with the for loop
 - The element parameter will get the *value* of the array element.
 - The index parameter will get the *index* of the element (starting with zero).
 -  The array parameter will get a reference to the whole array, which is handy if you want to modify the elements.
-```js				   0      1      2     //Indexes of elements
+```js				  
+				  0      1      2     //Indexes of elements
 			words = ["cat", "in", "hat"];  // cat, in, hat - elements
 			words.forEach(function(word, num, all) {
   			console.log("Word " + num + " in " + all.toString() + " is " + word);
 			});
 						/*Output will be Word 0 in cat,in,hat is cat 
-								 Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/```
+								 Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/
 ```
 ## Map
 With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.
