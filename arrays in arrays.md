@@ -6,12 +6,12 @@ Syntax:
   			["powdered", "sprinkled", "glazed cruller"],
   			["chocolate cruller", "Boston creme", "creme de leche"]
 			];
-``
+```
 To loop over the donut box and display each donut (along with its position in the box!):
 1. Start with writing a for loop to loop over each **row** of the box of donuts
 2. Next need to set up an inner-loop to loop over each **cell** in the arrays.
 ```js			
-            for (var row = 0; row < donutBox.length; row++) {   // for loop for each row
+            		for (var row = 0; row < donutBox.length; row++) {   // for loop for each row
 			/* here, donutBox[row].length refers to the length of 
                         the donut array currently being looped over*/
   
@@ -19,7 +19,7 @@ To loop over the donut box and display each donut (along with its position in th
     			console.log(donutBox[row][column]);
   			}
 			}
-				/* Output   	"glazed"
+					/* Output "glazed"
 						"chocolate glazed"
 						"cinnamon"
 						"powdered"
