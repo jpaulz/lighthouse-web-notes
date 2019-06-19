@@ -22,8 +22,8 @@ and manipulate each element in the array with an inline function expression.
 			var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
 
 			donuts.forEach(function(donut) {
-  			donut += " hole";
-  			donut = donut.toUpperCase();
+  			donut += " hole";		// Adding more to the tring 
+  			donut = donut.toUpperCase();	//.toUpperCase() methode to change the string to upper case
   			console.log(donut);
 			});			/* Output will be 
 						JELLY DONUT HOLE
@@ -35,7 +35,7 @@ That how it would be done with the for loop
 			var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
 
 			for (var i = 0; i < donuts.length; i++) {
-  			donuts[i] += " hole";
+  			donuts[i] += " hole";		
   			donuts[i] = donuts[i].toUpperCase();
   			console.log(donuts[i]);
 			}
@@ -50,11 +50,11 @@ That how it would be done with the for loop
 ```js				  
 				  0      1      2     //Indexes of elements
 			words = ["cat", "in", "hat"];  // cat, in, hat - elements
-			words.forEach(function(word, num, all) {
+			words.forEach(function(word, num, all) {		//function with three parametrs
   			console.log("Word " + num + " in " + all.toString() + " is " + word);
 			});
-						/*Output will be Word 0 in cat,in,hat is cat 
-								 Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/
+				/*Output will be Word 0 in cat,in,hat is cat 
+				Word 1 in cat,in,hat is in 														Word 2 in cat,in,hat is hat*/
 ```
 ## Map
 With the map() method, you can take an array, perform some operation on each element of the array, and return a new array.
@@ -74,7 +74,7 @@ With the map() method, you can take an array, perform some operation on each el
 				/*donuts array: ["jelly donut", "chocolate donut", "glazed donut"]
 				improvedDonuts array: ["JELLY DONUT HOLE", "CHOCOLATE DONUT HOLE", "GLAZED DONUT HOLE"]*/
 ```
-map() method examople
+map() method example
 ```js
 			var bills = [50.23, 19.12, 34.01,100.11, 12.15, 9.90, 29.11, 12.99,10.00, 99.22, 102.20, 100.10, 6.77, 2.22];
    				 
